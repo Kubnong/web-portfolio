@@ -22,13 +22,15 @@ const SwiperComponent = () => {
             autoplay={{ delay: 5000, disableOnInteraction: false }}
         >
             <SwiperSlide>
-                <div className="flex bg-[#313131e3] items-center p-3 rounded-2xl border-2 border-[#dad4d4] justify-center gap-15 h-145">
-                    <Image
-                        src="/Awards_kaset.png"
-                        width={300}
-                        height={100}
-                        alt="Cert_Botnoi"
-                    />
+                <div className="flex flex-col lg:flex-row md:gap-y-0 bg-[#313131e3] items-center p-3 rounded-2xl border-2 border-[#dad4d4] justify-center h-145">               
+                    <div className="w-[180px] md:w-[200px] lg:w-[300px]">
+                        <Image
+                            src="/Awards_kaset.png"
+                            width={300}
+                            height={100}
+                            alt="Cert_Botnoi"
+                        />
+                    </div>
                     <div className="flex flex-col text-white items-center gap-3">
                         <div className="font-bold text-[30px]">
                             เหรียณเรียนดี
@@ -46,13 +48,15 @@ const SwiperComponent = () => {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-                <div className="flex bg-[#313131e3] items-center p-3 rounded-2xl border-2 border-[#dad4d4] justify-center gap-15 h-145">
-                    <Image
-                        src="/Cert_kaset.jpg"
-                        width={600}
-                        height={100}
-                        alt="Cert_Botnoi"
-                    />
+                <div className="flex flex-col lg:flex-row bg-[#313131e3] items-center p-3 rounded-2xl border-2 border-[#dad4d4] justify-center gap-15 h-145">
+                    <div className="w-[300px] md:w-[400px] lg:w-[600px]">
+                        <Image
+                            src="/Cert_kaset.jpg"
+                            width={600}
+                            height={100}
+                            alt="Cert_Botnoi"
+                        />
+                    </div>
                     <div className="flex flex-col text-white items-center gap-2">
                         <div className="font-bold text-[30px]">
                             เกียรติบัตรรางวัลการเรียนดี

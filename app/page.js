@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="p-10 bg-[#292d33] scroll-smooth">
       {/*NavBar*/}
-      <div className="flex items-center justify-center gap-x-150">
+      <div className="hidden md:flex items-center justify-center gap-x-150">
         <div className="text-[25px] font-bold">PHATTHARAPONG</div>
         <div className="flex gap-5 font-semi text-[20px]">
           <a href='#skills'>
@@ -20,7 +20,7 @@ export default function Home() {
         </div>
       </div>
       {/*Introduce and Picture*/}
-      <div className="flex items-center justify-center p-10 gap-x-60">
+      <div className="flex flex-col items-center justify-center p-10 gap-x-60 gap-y-10 md:flex-row">
         <div className="flex flex-col items-center">
           <div>
             <Image
@@ -75,7 +75,7 @@ export default function Home() {
           <Lightbulb className="size-8" />
           Skills
         </div>
-        <div className="flex gap-10 p-2">
+        <div className="flex flex-col lg:flex-row gap-10 p-2">
           {" "}
           {/* คุมอันใหญ่ */}
           <div className="flex flex-col items-center gap-y-5">
@@ -312,7 +312,7 @@ export default function Home() {
             <div>Botnoi Group</div>
             <div>Apr 2025 - Jun 2025 (2month)</div>
           </div>
-          <hr className="w-10" />
+          <hr className="w-20 md:w-10"/>
           <div>Mobile Application Developer (Internship)</div>
         </div>
       </div>
@@ -323,7 +323,7 @@ export default function Home() {
           <BriefcaseBusiness className="size-8"/>
           Works
         </div>
-        <div className="flex gap-3 p-2 h-125">
+        <div className="flex flex-col lg:flex-row gap-3 p-2">
           <div className="flex flex-col bg-[#474747e3] rounded-2xl p-3">
             <Image
               src="/Proj_java.png" 
@@ -426,7 +426,7 @@ export default function Home() {
           Awards & Certificate
         </div>
         <SwiperComponent/>
-        <div className="flex gap-x-10">
+        <div className="flex flex-col md:flex-row gap-x-10 gap-y-5">
           <div className="flex flex-col justify-center items-center gap-y-2">
             <Image
               src="/Cer_Botnoi.jpg"

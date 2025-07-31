@@ -28,7 +28,7 @@ const SwiperComponent = () => {
                             src="/Awards_kaset.png"
                             width={300}
                             height={100}
-                            alt="Cert_Botnoi"
+                            alt="Cert_kaset2565"
                         />
                     </div>
                     <div className="flex flex-col text-white items-center gap-3">
@@ -66,6 +66,32 @@ const SwiperComponent = () => {
                         </div>
                         <div className="text-[18px]">
                             ประจำปีการศึกษา 2566
+                        </div>
+                        <div className="text-[18px] text-gray-500">
+                            รางวัลสำหรับผู้ที่มีเกรดเฉลี่ยผลการเรียน 3.50 ขึ้นไป
+                        </div>
+                    </div>
+                </div>
+            </SwiperSlide>
+            <SwiperSlide>
+                <div className="flex flex-col lg:flex-row bg-[#313131e3] items-center p-3 rounded-2xl border-2 border-[#dad4d4] justify-center gap-15 h-145">
+                    <div className="w-[300px] md:w-[400px] lg:w-[600px]">
+                        <Image
+                            src="/Cert_kaset2.jpg"
+                            width={600}
+                            height={100}
+                            alt="Cert_kaset2"
+                        />
+                    </div>
+                    <div className="flex flex-col text-white items-center gap-2">
+                        <div className="font-bold text-[30px]">
+                            เกียรติบัตรรางวัลการเรียนดี
+                        </div>
+                        <div className="text-[20px]">
+                            มหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตกำแพงแสน
+                        </div>
+                        <div className="text-[18px]">
+                            ประจำปีการศึกษา 2567
                         </div>
                         <div className="text-[18px] text-gray-500">
                             รางวัลสำหรับผู้ที่มีเกรดเฉลี่ยผลการเรียน 3.50 ขึ้นไป

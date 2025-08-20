@@ -147,6 +147,13 @@ export default function Home() {
                   className="bg-gray-200 p-1 rounded"
                 />
                 <Image
+                  src="https://www.svgrepo.com/show/354478/typescript-icon.svg"
+                  width={50}
+                  height={30}
+                  alt="Picture Typescript"
+                  className="bg-gray-200 p-1 rounded"
+                />
+                <Image
                   src="https://www.svgrepo.com/show/452234/java.svg"
                   width={50}
                   height={30}
@@ -160,17 +167,19 @@ export default function Home() {
                   alt="Picture Python"
                   className="bg-gray-200 p-1 rounded"
                 />
-                <Image
-                  src="https://cdn.worldvectorlogo.com/logos/c-1.svg"
-                  width={50}
-                  height={30}
-                  alt="Picture C"
-                  className="bg-gray-200 p-1 rounded"
-                />
-                <div className="w-[50px] h-[56px] bg-gray-200 p-1 rounded flex items-center justify-center">
+                <div className="w-[50px] h-[50px] bg-gray-200 p-1 rounded flex items-center justify-center">
+                  <Image
+                    src="https://cdn.worldvectorlogo.com/logos/c-1.svg"
+                    width={45}
+                    height={30}
+                    alt="Picture C"
+                    className="bg-gray-200 p-1 rounded"
+                  />
+                </div>
+                <div className="w-[50px] h-[50px] bg-gray-200 p-1 rounded flex items-center justify-center">
                   <Image
                     src="https://docs.soliditylang.org/en/latest/_images/solidity_logo.svg"
-                    width={50}
+                    width={60}
                     height={30}
                     alt="Picture Solidity"
                     className="object-contain"
@@ -230,6 +239,13 @@ export default function Home() {
             Database
             <div className="grid grid-cols-3 items-center gap-4">
               <Image
+                src="https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg"
+                width={50}
+                height={30}
+                alt="Picture Supabase"
+                className="bg-gray-200 p-1 rounded"
+              />
+              <Image
                 src="https://cdn.worldvectorlogo.com/logos/mysql-logo-pure.svg"
                 width={49}
                 height={30}
@@ -248,7 +264,7 @@ export default function Home() {
                   src="https://cdn.worldvectorlogo.com/logos/firebase-1.svg"
                   width={30}
                   height={30}
-                  alt="Picture Solidity"
+                  alt="Picture Firebase"
                   className="object-contain"
                 />
               </div>
